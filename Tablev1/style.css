@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    width: 100vw;
+    justify-content:space-evenly;
+}
+img{
+    width: 500px;
+}
+
+table {
+    text-align: center;
+    border: 2px solid rgb(58, 58, 58);
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+}
+
+th,
+td {
+    padding: 5px;
+    border: 2px solid rgb(58, 58, 58);
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    transition: transform 0.5s ease-in;
+}
+td:hover,th:hover{
+    transform: scale(1.1);    
+}
+
+th {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.color1 {
+    background-color: rgb(255, 255, 193);
+}
+
+.color3 {
+    background-color: rgb(198, 241, 198);
+}
+
+.color2 {
+    background-color: rgb(192, 192, 252);
+}
