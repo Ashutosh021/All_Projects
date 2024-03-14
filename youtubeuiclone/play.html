@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="icons/menu.png" alt="" class="menu-icon">
+            <img src="icons/logo.png" alt="" class="logo">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="icons/search.png" alt="">
+            </div>
+
+            <img src="icons/voice-search.png" alt="" class="mic-icon">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="icons/upload.png" alt="">
+            <img src="icons/more.png" alt="">
+            <img src="icons/notification.png" alt="">
+            <img src="images/my.png" alt="" class="user-icon">
+        </div>
+    </nav>
+
+    <div class="container play-container">
+        <div class="row">
+            <div class="play-video">
+                <video controls autoplay>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+
+
+                <div class="tags">
+                    <a href="">#coding</a>
+                    <a href="">#HTML</a>
+                    <a href="">#CSS</a>
+                    <a href="">#JavaScript</a>
+                </div>
+                <h3>Best YouTube video for coding</h3>
+                <div class="play-video-info">
+                    <p>1245 Views &bull; 2 days ago</p>
+                    <div>
+                        <a href=""><img src="icons/like.png" alt="">125</a>
+                        <a href=""><img src="icons/dislike.png" alt="">34</a>
+                        <a href=""><img src="icons/share.png" alt="">Share</a>
+                        <a href=""><img src="icons/save.png" alt="">save</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="publisher">
+                    <img src="images/pf1.jpg" alt="">
+                    <div>
+                        <p>Love Babbar</p>
+                        <span>670K Subscriber</span>
+                    </div>
+                    <button type="button" onclick="subscribed()" id="Sbtn">Subscribe</button>
+                </div>
+
+                <div class="vid-description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, excepturi.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, excepturi.</p>
+                    <hr>
+
+                    <h4> 134 Comments</h4>
+
+                    <div class="add-comment">
+                        <img src="images/my.png" alt="">
+                        <input type="text" placeholder="write comments...">
+                    </div>
+
+                    <div class="old-comment">
+                        <img src="images/pf3.jpg" alt="">
+                        <div>
+                            <h3>Aman <span>2 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim assumenda aut nam
+                                labore, nesciunt veritatis autem eius ullam aspernatur inventore quaerat impedit error
+                                quo officia nihil voluptatibus nemo asperiores.</p>
+                                <div class="comment-action">
+                                    <img src="icons/like.png" alt="">
+                                    <span>244</span>
+                                    <img src="icons/dislike.png" alt="">
+                                    <span>24</span>
+                                    <span>Reply</span>
+                                    <a href="">All Replies</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/pf1.jpg" alt="">
+                        <div>
+                            <h3>Love Babbar <span>2 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim assumenda aut nam
+                                labore, nesciunt veritatis autem eius ullam aspernatur inventore quaerat impedit error
+                                quo officia nihil voluptatibus nemo asperiores.</p>
+                                <div class="comment-action">
+                                    <img src="icons/like.png" alt="">
+                                    <span>244</span>
+                                    <img src="icons/dislike.png" alt="">
+                                    <span>24</span>
+                                    <span>Reply</span>
+                                    <a href="">All Replies</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/pf2.jpg" alt="">
+                        <div>
+                            <h3>harry <span>2 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim assumenda aut nam
+                                labore, nesciunt veritatis autem eius ullam aspernatur inventore quaerat impedit error
+                                quo officia nihil voluptatibus nemo asperiores.</p>
+                                <div class="comment-action">
+                                    <img src="icons/like.png" alt="">
+                                    <span>244</span>
+                                    <img src="icons/dislike.png" alt="">
+                                    <span>24</span>
+                                    <span>Reply</span>
+                                    <a href="">All Replies</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/pf4.jpg" alt="">
+                        <div>
+                            <h3>anuj<span>2 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim assumenda aut nam
+                                labore, nesciunt veritatis autem eius ullam aspernatur inventore quaerat impedit error
+                                quo officia nihil voluptatibus nemo asperiores.</p>
+                                <div class="comment-action">
+                                    <img src="icons/like.png" alt="">
+                                    <span>244</span>
+                                    <img src="icons/dislike.png" alt="">
+                                    <span>24</span>
+                                    <span>Reply</span>
+                                    <a href="">All Replies</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/pf5.jpg" alt="">
+                        <div>
+                            <h3>babbar <span>2 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim assumenda aut nam
+                                labore, nesciunt veritatis autem eius ullam aspernatur inventore quaerat impedit error
+                                quo officia nihil voluptatibus nemo asperiores.</p>
+                                <div class="comment-action">
+                                    <img src="icons/like.png" alt="">
+                                    <span>244</span>
+                                    <img src="icons/dislike.png" alt="">
+                                    <span>24</span>
+                                    <span>Reply</span>
+                                    <a href="">All Replies</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="right-sidebar">
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail_9.jpg" alt="">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Solve any Pattern Question - Trick Explained | 22 Patterns in 1 Shot | Strivers A2Z DSA Course</a>
+                        <p>take u forword</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail_2.jpg" alt="">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">C Language Tutorial For Beginners In Hindi (With Notes) 🔥</a>
+                        <p>code with harry</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail_3.jpg" alt="">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">How to improve Communication Skills | How to speak in English?</a>
+                        <p>Aman Dhattarwal</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail_4.jpg" alt="">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Android Development Tutorial for Absolute Beginners | Hindi 🔥 | 5 Projects in Android | Announcement</a>
+                        <p>Anuj Bhaiya</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail_5.jpg" alt="">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Introduction to Operating Systems Placements Course 2022</a>
+                        <p>code help</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail_6.jpg" alt="">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Learn CSS in 20 Minutes</a>
+                        <p>web dev simplified</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <img src="images/thumbnail_7.jpg" alt="">
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Java Tutorial for Beginners | Learn Java in 2 Hours</a>
+                        <p>Apna College</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
