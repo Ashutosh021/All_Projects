@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.main {
+    margin: auto;
+    width: 400px;
+    background-color: white;
+}
+
+.signin-box {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(207, 201, 201);
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-box-heading {
+    margin: 5px 0 5px 0;
+}
+
+.signin-box-heading2 {
+    margin: 5px 0 5px 0;
+}
+
+.signin-box-input {
+    width: 100%;
+    height: 35px;
+    margin: 2px auto;
+    border-radius: 5px;
+    border: 2px solid rgb(194, 191, 191);
+}
+
+.signin-box-continue {
+    margin: 10px auto;
+    width: 100%;
+    height: 35px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+}
+
+.signin-box-condition {
+    margin: 5px 0;
+}
+
+.signin-box-condition span{
+color: blue;
+}
+.shop p {
+color: blue;
+}
+
+.signin-box-help {
+    margin: 15px 0;
+    color: blue;
+}
+
+.signup p{
+    text-align: center;
+    margin: 20px 0;
+    color: gray;
+}
+.signup button{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+
+.footer {
+    margin-top: 10px;
+    width: 380px;
+    margin: auto;
+}
+
+.footer-list-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: blue;
+}
+
+.footer .copyright {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+@media (max-width:600px){
+    .main{
+        width: 100vw;
+    }
+    .footer {
+        padding: 10px;
+    width: 100vw;
+    }
+}

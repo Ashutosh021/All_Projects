@@ -1,0 +1,87 @@
+
+.horizontalList {
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+.horizontalList .heading {
+    display: flex;
+}
+
+.horizontalList .heading p {
+    padding: 8px;
+    color: rgb(67, 67, 173);
+}
+
+.horizontalList .items {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+#today-deal-list {
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.hitem-list {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hitem-list .hitem {
+    width: 260px;
+}
+
+.hitem div {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.hitem div p {
+    color: crimson;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.hitem p {
+    text-overflow: initial;
+}
+
+.hitem span {
+    background-color: crimson;
+    padding: 5px;
+    color: white;
+}
+
+@media (max-width:600px){
+    .horizontalList .heading {
+        display: flex;
+        flex-direction: column;
+    }
+    .hitem-list .hitem{
+        margin-top: 40px;
+    }
+
+    .horizontalList .items {
+        display: flex;
+    }
+    
+    .horizontalList .items div {
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-bottom: 10px;
+    }
+    
+    
+}

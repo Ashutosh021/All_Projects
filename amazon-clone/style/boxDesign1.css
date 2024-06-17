@@ -1,0 +1,91 @@
+.main2{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box-item {
+    width: 330px;
+    height: 420px;
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+   
+}
+#heading{
+    margin-bottom: 15px;
+    height: 50px;
+    padding: 5px;
+}
+#heading p{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+}
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 130px;
+    height: 140px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.item div {
+    margin-top: 10px;
+}
+.item div p{
+    color: crimson;
+    margin-top: 10px;
+}
+.item img {
+    width: 70px;
+    height: 70px;
+}
+
+.item span {
+    background-color: crimson;
+    padding: 5px;
+    color: white;
+}
+.see-all{
+    margin-top: 20px;
+    color: rgb(79, 79, 209);
+}
+
+#sign-in {
+    width: 330px;
+    height: 180px;
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+#sign-in button{
+    margin-top: 20px;
+    background-color: rgb(238, 203, 8);
+    width: 90%;
+    height: 36px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    border: none;
+    border-radius: 10px;
+}
+
+#sign-in button:hover{
+    background-color: rgb(238, 212, 63);
+}
+
+
+#box10 img{
+    width: 60px;
+    height: 120px;
+}
