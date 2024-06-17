@@ -7,4 +7,4 @@
 | 5  | Table Layout         | HTML,CSS       | [Vsit](https://ashutosh021.github.io/webprojects/Tablev1/)             | [Vsit](https://github.com/Ashutosh021/webprojects/tree/main/Tablev1)   | 11/03/2024  |
 | 6  | Registration Form    | HTML,CSS       | [Vsit](https://ashutosh021.github.io/webprojects/Registrationformv1/)  | [Vsit](https://github.com/Ashutosh021/webprojects/tree/main/Registrationformv1) | 11/03/2024  |
 | 7  | YouTube UI Clone     | HTML,CSS,JS    | [Vsit](https://ashutosh021.github.io/webprojects/youtubeuiclone/)      | [Vsit](https://github.com/Ashutosh021/webprojects/tree/main/youtubeuiclone) | 15/03/2024  |
-| 8  | Amazon UI Clone      | HTML,CSS,JS    | -----                                                                   | Soon                                                                    |             |
+| 8  | Amazon UI Clone      | HTML,CSS,JS    | [Vsit](https://ashutosh021.github.io/webprojects/amazon-clone/pages/)  | [Vsit](https://github.com/Ashutosh021/webprojects/tree/main/amazon-clone)| 17/06/2024 |
